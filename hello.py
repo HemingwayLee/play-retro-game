@@ -10,9 +10,9 @@ def play_game_randomly(game_name):
         action = env.action_space.sample()
         
         print(env.get_action_meaning(action))
-        obs, reword, done, info = env.step(action)
+        obs, reward, done, info = env.step(action)
         
-        print(f"reword: {reword}")
+        print(f"reward: {reward}")
         print(info)
         env.render()
         
