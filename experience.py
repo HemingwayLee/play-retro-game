@@ -78,7 +78,7 @@ def run(game_name):
         env.render()
 
         next_stacked_state, stacked_frames = stack_frames(stacked_frames, next_state, False, (rows, cols))
-        memory.add((stacked_state, action, reward, next_stacked_state, done))
+        memory.add([stacked_state, action, reward, next_stacked_state, done])
         stacked_state = next_stacked_state
         
         if done:
