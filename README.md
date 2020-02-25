@@ -30,8 +30,9 @@ python3 -m retro.examples.interactive --game Breakout-Atari2600
 ```
 
 * Play the games
-![boxing](https://user-images.githubusercontent.com/8428372/72200071-1aea9800-3488-11ea-9431-ead2006cc459.png)
-![breakout](https://user-images.githubusercontent.com/8428372/72200072-1cb45b80-3488-11ea-8554-b21803f41c93.png)
+![breakout](https://user-images.githubusercontent.com/8428372/75220475-dc642f00-57e2-11ea-8845-9761061092d6.png)
+![boxing](https://user-images.githubusercontent.com/8428372/75220483-e0904c80-57e2-11ea-9f4c-c7583e8ca5fd.png)
+
 
 # Reference  
 https://retro.readthedocs.io/en/latest/getting_started.html
